@@ -11,6 +11,8 @@ mvn clean install
 To run the service use below command:
 mvn spring-boot:run
 
+Application will start on 9000 port.
+
 To Get All customers:
 curl -X GET -H 'Accept: application/json' -H 'Content-Type: application/json' -i http://localhost:9000/customers
 
