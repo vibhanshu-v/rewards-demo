@@ -13,6 +13,11 @@ mvn spring-boot:run
 
 Application will start on 9000 port.
 
+To view h2 DB console: 
+http://localhost:9000/h2-console
+
+JDBC URL will be avaiable in the logs too.
+
 To Get All customers:
 curl -X GET -H 'Accept: application/json' -H 'Content-Type: application/json' -i http://localhost:9000/customers
 
