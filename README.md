@@ -5,7 +5,7 @@ The service populate h2 db with data.sql file
 Environment:
 JAVA 11
 
-To build the application:
+To build the application run below command:
 mvn clean install
 
 To run the service use below command:
